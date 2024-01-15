@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbw58xgi5acm"
+path="res://.godot/imported/9ball_rack.obj-70ab0f5c5a0db5bb7a66a85e7f8ee46b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/9ball_rack.obj-70ab0f5c5a0db5bb7a66a85e7f8ee46b.mesh"]
+
+source_file="res://dist/obj_mtl/racks/9ball_rack.obj"
+dest_files=["res://.godot/imported/9ball_rack.obj-70ab0f5c5a0db5bb7a66a85e7f8ee46b.mesh", "res://.godot/imported/9ball_rack.obj-70ab0f5c5a0db5bb7a66a85e7f8ee46b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

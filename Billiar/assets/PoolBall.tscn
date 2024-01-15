@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://sxbbkxb5cahi"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://dbxohqk43vhp" path="res://assets/balls/ball.tres" id="1_71ivb"]
+[ext_resource type="Script" path="res://src/ball.gd" id="1_jmgjg"]
+[ext_resource type="ArrayMesh" uid="uid://b1ayxsp56scjd" path="res://assets/balls/custom_ball.obj" id="2_hidq7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1rdfa"]
+metallic = 1.0
+metallic_specular = 1.0
+roughness = 0.8
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ud5e0"]
+radius = 0.1
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_d60nm"]
+properties/0/path = NodePath(".:linear_velocity")
+properties/0/spawn = true
+properties/0/replication_mode = 1
+properties/1/path = NodePath(".:angular_velocity")
+properties/1/spawn = true
+properties/1/replication_mode = 1
+properties/2/path = NodePath(".:position")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+properties/3/path = NodePath(".:rotation")
+properties/3/spawn = true
+properties/3/replication_mode = 1
+
+[node name="PoolBall" type="RigidBody3D"]
+collision_layer = 2
+collision_mask = 2
+physics_material_override = ExtResource("1_71ivb")
+continuous_cd = true
+max_contacts_reported = 3
+contact_monitor = true
+linear_damp_mode = 1
+linear_damp = 1.0
+angular_damp_mode = 1
+angular_damp = 1.0
+script = ExtResource("1_jmgjg")
+
+[node name="CustomBall" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_1rdfa")
+mesh = ExtResource("2_hidq7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_ud5e0")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_d60nm")

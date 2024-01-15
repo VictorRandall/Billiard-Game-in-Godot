@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcg6rrqgbgnha"
+path="res://.godot/imported/8ball.obj-9d0c8440f762a001072b77d5de3a2548.mesh"
+
+[deps]
+
+files=["res://.godot/imported/8ball.obj-9d0c8440f762a001072b77d5de3a2548.mesh"]
+
+source_file="res://dist/obj_mtl/balls/pool/8ball.obj"
+dest_files=["res://.godot/imported/8ball.obj-9d0c8440f762a001072b77d5de3a2548.mesh", "res://.godot/imported/8ball.obj-9d0c8440f762a001072b77d5de3a2548.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

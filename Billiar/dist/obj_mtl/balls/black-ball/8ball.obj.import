@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cnpew28rlh56q"
+path="res://.godot/imported/8ball.obj-dc6d51c31c72555d286f45d6cc1f16b3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/8ball.obj-dc6d51c31c72555d286f45d6cc1f16b3.mesh"]
+
+source_file="res://dist/obj_mtl/balls/black-ball/8ball.obj"
+dest_files=["res://.godot/imported/8ball.obj-dc6d51c31c72555d286f45d6cc1f16b3.mesh", "res://.godot/imported/8ball.obj-dc6d51c31c72555d286f45d6cc1f16b3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

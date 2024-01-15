@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dj1aqg5pfn4l0"
+path="res://.godot/imported/5ball.obj-3346deac90479ae230811b8896850000.mesh"
+
+[deps]
+
+files=["res://.godot/imported/5ball.obj-3346deac90479ae230811b8896850000.mesh"]
+
+source_file="res://dist/obj_mtl/balls/pool/5ball.obj"
+dest_files=["res://.godot/imported/5ball.obj-3346deac90479ae230811b8896850000.mesh", "res://.godot/imported/5ball.obj-3346deac90479ae230811b8896850000.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

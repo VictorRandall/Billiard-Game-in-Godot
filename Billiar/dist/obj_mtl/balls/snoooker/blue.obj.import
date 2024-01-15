@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chbqs6k7lvoyk"
+path="res://.godot/imported/blue.obj-b523bc071846ca57988cd2a7ae28fd6e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blue.obj-b523bc071846ca57988cd2a7ae28fd6e.mesh"]
+
+source_file="res://dist/obj_mtl/balls/snoooker/blue.obj"
+dest_files=["res://.godot/imported/blue.obj-b523bc071846ca57988cd2a7ae28fd6e.mesh", "res://.godot/imported/blue.obj-b523bc071846ca57988cd2a7ae28fd6e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

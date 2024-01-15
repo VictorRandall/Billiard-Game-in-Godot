@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1hbk11t7e8nk"
+path="res://.godot/imported/cue_stick.obj-d8014ebb49a8eaecc93c658c6e7c2b73.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cue_stick.obj-d8014ebb49a8eaecc93c658c6e7c2b73.mesh"]
+
+source_file="res://dist/obj_mtl/sticks/cue_stick.obj"
+dest_files=["res://.godot/imported/cue_stick.obj-d8014ebb49a8eaecc93c658c6e7c2b73.mesh", "res://.godot/imported/cue_stick.obj-d8014ebb49a8eaecc93c658c6e7c2b73.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

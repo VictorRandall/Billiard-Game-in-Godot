@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://rv8ydh4og3mj"
+path="res://.godot/imported/the orange(main theme).ogg-2c3e4c6392808dbd2f4607e5fc4e6019.oggvorbisstr"
+
+[deps]
+
+source_file="res://the orange(main theme).ogg"
+dest_files=["res://.godot/imported/the orange(main theme).ogg-2c3e4c6392808dbd2f4607e5fc4e6019.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

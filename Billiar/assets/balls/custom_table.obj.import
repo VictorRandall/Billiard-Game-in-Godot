@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4qn4d1r0toek"
+path="res://.godot/imported/custom_table.obj-71dc7415112e3bce9f93007ccad5b696.mesh"
+
+[deps]
+
+files=["res://.godot/imported/custom_table.obj-71dc7415112e3bce9f93007ccad5b696.mesh"]
+
+source_file="res://assets/balls/custom_table.obj"
+dest_files=["res://.godot/imported/custom_table.obj-71dc7415112e3bce9f93007ccad5b696.mesh", "res://.godot/imported/custom_table.obj-71dc7415112e3bce9f93007ccad5b696.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

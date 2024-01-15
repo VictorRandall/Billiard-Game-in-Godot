@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://4rbgrdlhc0bc"]
+
+[resource]
+resource_name = "bound"
+cull_mode = 2
+metallic = 1.0
